@@ -1,0 +1,199 @@
+/* ... (previous styles) ... */
+
+header {
+    background-color: #9d06e9; /* Darken the header background color */
+    color: #fff;
+    display: flex;
+    justify-content: space-between; /* Distribute elements evenly */
+    align-items: center; /* Vertically center elements */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center; /* Vertically center navigation items */
+}
+
+nav li {
+    margin-right: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #f76402; /* Change color on hover */
+}
+
+/* Logo styles */
+#logo {
+    height:50px;
+    border-radius: 20px;
+}
+
+/* Contact items */
+.contact-email {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left:140px;
+   
+}
+
+.contact-email p {
+    margin-left:0.2rem;
+    font-size: 14px;
+    color: #fefefe;
+}
+.contact-phone {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right:9rem;
+}
+
+.contact-phone p {
+    margin-left:0.2rem;
+    font-size: 14px;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 90vw;
+    overflow: hidden;
+    margin: auto;
+    height: 200px;
+}
+
+.slide {
+    display: none;
+}
+
+.fade {
+    animation: fade 5s linear infinite;
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 0;
+    }
+    20%, 80% {
+        opacity: 1;
+    }
+}
+
+/* ... (rest of the styles) ... */
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 0;
+}
+
+.feature {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+/* ... (previous styles) ... */
+
+
+
+
+
+/* ... (previous styles) ... */
+
+.social-media.sticky {
+    position: fixed;
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icon {
+    margin-bottom: 1rem;
+    font-size: 24px; /* Adjust icon size */
+    color: #aaa; /* Default color for icons */
+    transition: color 0.2s ease;
+}
+
+/* ... (rest of the styles) ... */
+
+
+
+.register {
+    background-color: #fff;
+    padding: 3rem;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.register h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.register label, .register input {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.register input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.register button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.register button:hover {
+    background-color: #555;
+}
+
+/* ... (rest of the styles) ... */
